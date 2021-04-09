@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  margin: 0;
+  margin-left: var(--s);
+}
+
+.link {
+  display: flex;
+  padding: var(--m);
+  text-decoration: none;
+}

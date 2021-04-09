@@ -1,0 +1,36 @@
+.play {
+  margin-top: var(--s);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form > * {
+  width: 100%;
+  margin-bottom: var(--m);
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 2px 1fr;
+  grid-gap: var(--s);
+}
+
+.join-lobby {
+  margin-bottom: var(--s);
+}
+
+.separator {
+  width: 100%;
+  background-color: var(--primary-color);
+}
+
+.group {
+  width: 100%;
+}
+
+.lobby-id {
+  word-break: break-word;
+}

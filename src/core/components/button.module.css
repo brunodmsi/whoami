@@ -1,0 +1,23 @@
+.button {
+  border-radius: 9999px;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border: 5px solid var(--primary-color);
+  padding: var(--m);
+  font-size: inherit;
+  width: 100%;
+  transition: filter ease-in-out 0.5s;
+}
+
+.button:hover {
+  filter: brightness(120%);
+}
+
+.disabled {
+  cursor: not-allowed;
+  filter: grayscale(100%);
+}
+
+.disabled.button:hover {
+  filter: grayscale(100%);
+}

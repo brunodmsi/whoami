@@ -1,0 +1,21 @@
+.main {
+  display: grid;
+  grid-template-rows: min-content 1fr auto;
+  min-height: 100%;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: var(--s);
+  max-width: var(--body-width);
+  margin: 0 auto;
+}
+
+.footer {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  padding: var(--s);
+  margin: 0;
+}

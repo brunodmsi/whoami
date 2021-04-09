@@ -1,0 +1,32 @@
+:root {
+  /* Palette */
+  --primary-color: hsl(57, 82%, 60%);
+  --on-primary-color: white;
+
+  --secondary-color: hsl(230, 95%, 64%);
+  --on-secondary-color: white;
+
+  --gray-color: hsl(0, 0%, 90%);
+  --gray-color-900: hsl(0, 0%, 50%);
+
+  --surface-color: var(--secondary-color);
+  --on-surface-color: white;
+
+  /* Typography */
+  --body-font: 'Work sans';
+  --title-font: 'Work sans';
+  --body-size: 22px;
+  --body-width: 40rem;
+  --body-size-mobile: 14px;
+  --subtitle-size: 14px;
+
+  /* Spacing */
+  --base: 0.25rem;
+  --s: calc(var(--base) * 2);
+  --m: calc(var(--base) * 4);
+  --l: calc(var(--base) * 8);
+
+  /* Misc */
+  --content-width: 40rem;
+  --radius: 5px;
+}

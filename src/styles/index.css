@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--body-size);
+  color: var(--on-surface-color);
+  background-color: var(--surface-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 720px) {
+  body {
+    font-size: var(--body-size-mobile);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100%;
+}
+
+a {
+  color: var(--on-primary-color);
+}
